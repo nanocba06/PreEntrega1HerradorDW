@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta de Entradas</title>
+    <script src="js/venta_entradas.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Almagro vs Boca Jrs. - COPA ARGENTINA - 8avos de final</h1>
+    </header>
+    <main>
+        <div class="ticket-form">
+            <h2>Valor de las entradas:</h2>
+            <p>Vip: <span id="total">$300</span></p>
+            <p>Platea: <span id="total">$100</span></p>
+            <p>General: <span id="total">$50</span></p>
+            <button id="comprar" onclick="disponibilidad()">Ver Disponibilidad</button>
+            <button id="comprar" onclick="comprarEntradas()">Comprar</button>
+        </div>
+        <div class="ticket-info">
+            <h2>Domingo 10 Septiembre, 17:30 hrs.</h2>
+            <ul id="resumen">
+                Estadio Carlos Augusto Mercado Luna, La Rioja, Argentina
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 MiEntrada</p>
+    </footer>
+</body>
+</html>
